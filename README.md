@@ -219,8 +219,13 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgements
+
 FastAPI: A modern web framework for building APIs.
+
 Uvicorn: ASGI server for running FastAPI apps.
+
 AniList: An excellent API for anime data, used to fetch anime information for this app.
+
 Docker: Containerization of the app to make deployment easier.
-This README gives a comprehensive guide to setting up, running, and contributing to the FastAPI-based chat application. It's tailored for developers who want to get up and running quickly, while also providing instructions for deployment and contribution.
+
+

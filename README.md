@@ -220,12 +220,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Acknowledgements
 
-FastAPI: A modern web framework for building APIs.
+- FastAPI: A modern web framework for building APIs.
 
-Uvicorn: ASGI server for running FastAPI apps.
+- Uvicorn: ASGI server for running FastAPI apps.
 
-AniList: An excellent API for anime data, used to fetch anime information for this app.
+- AniList: An excellent API for anime data, used to fetch anime information for this app.
 
-Docker: Containerization of the app to make deployment easier.
+- Docker: Containerization of the app to make deployment easier.
 
 

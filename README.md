@@ -218,7 +218,7 @@ Push to your forked repository and submit a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+Acknowledgements-
 
 - FastAPI: A modern web framework for building APIs.
 

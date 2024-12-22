@@ -30,6 +30,7 @@ This project is a simple, real-time chat application that allows users to:
 The application uses FastAPI for the backend, WebSockets for real-time communication, and integrates with AniList to fetch anime data.
 
 Features
+
 Fetch anime data from AniList: The app pulls a list of anime shows, including their genres, descriptions, and cover images.
 
 WebSocket-based chat rooms: Users can join a specific chat room for an anime and send messages in real time.
@@ -39,27 +40,34 @@ Message history: The app saves the chat history for each anime show, allowing us
 CORS-enabled: Supports cross-origin resource sharing, allowing frontend apps to connect with the backend.
 
 Technologies Used
-FastAPI: Modern, fast web framework for building APIs with Python 3.6+ based on standard Python type hints.
-Uvicorn: ASGI server for serving the FastAPI app.
-WebSockets: Protocol used for real-time, two-way communication between the frontend and backend.
-Requests: HTTP library used to fetch data from the AniList API.
-Pydantic: Data validation and settings management using Python type annotations.
-Docker: Containerization of the application for easy deployment.
-Getting Started
+- FastAPI: Modern, fast web framework for building APIs with Python 3.6+ based on standard Python type hints.
+- Uvicorn: ASGI server for serving the FastAPI app.
+- WebSockets: Protocol used for real-time, two-way communication between the frontend and backend.
+- Requests: HTTP library used to fetch data from the AniList API.
+- Pydantic: Data validation and settings management using Python type annotations.
+- Docker: Containerization of the application for easy deployment.
+- Getting Started
+
 Prerequisites
+
 Before you begin, ensure you have the following installed:
 
 Python 3.7+: The application requires Python version 3.7 or higher.
+
 pip: Python's package installer, which comes with Python.
+
 git: Version control system to manage your codebase.
+
 Docker (optional): For containerized deployment.
+
 Installation
+
 Clone the repository
 
-bash
 Copy code
-git clone https://github.com/yourusername/fastapi-anime-chat.git
+- git clone https://github.com/yourusername/fastapi-anime-chat.git
 cd fastapi-anime-chat
+
 Create a virtual environment
 
 It's best practice to use a virtual environment to isolate project dependencies:
